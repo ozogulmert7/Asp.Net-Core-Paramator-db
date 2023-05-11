@@ -32,25 +32,35 @@ public class HomeController : Controller
     [Route("/service")]
     public IActionResult Service()
     {
-        return View();
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
     }
 
     [Route("/event")]
     public IActionResult Event()
     {
-        return View();
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
     }
 
     [Route("/blog")]
     public IActionResult Blog()
     {
-        return View();
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
+    }
+     [Route("/cource")]
+    public IActionResult Cource()
+    {
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
     }
 
     [Route("/contact")]
     public IActionResult Contact()
     {
-        return View();
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

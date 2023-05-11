@@ -25,23 +25,14 @@
 							<li class='nav-item @(actionName=="Service"?"active":"")'><a class="nav-link" href="/service">Hizmetler</a>
 							<li class='nav-item @(actionName=="Event"?"active":"")'><a class="nav-link" href="/event">Etkinlikler</a>
 							<li class='nav-item @(actionName=="Blog"?"active":"")'><a class="nav-link" href="/blog">Blog</a>
-							 <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+							 <li class='nav-item submenu dropdown @(actionName=="Cource"?"active":"")'>
+								<a href="/cource" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
 									aria-haspopup="true" aria-expanded="false">Eğitimler</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="#">Yamaç Paraşutü</a>
-									<li class="nav-item"><a class="nav-link" href="#">Paramator</a></li>
+									<li class="nav-item"><a class="nav-link" href="/cource/yamac-parasutu/1">Yamaç Paraşutü</a>
+									<li class="nav-item"><a class="nav-link" href="/cource/paramator/2">Paramator</a></li>
 								</ul>
 							</li> 
-							@* <li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-									aria-haspopup="true" aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a>
-									</li>
-								</ul>
-							</li> *@
 							<li class='nav-item @(actionName=="Contact"?"active":"")'><a class="nav-link" href="/contact">İletişim</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
