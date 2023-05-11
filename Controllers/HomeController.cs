@@ -36,12 +36,6 @@ public class HomeController : Controller
         return View(model);
     }
 
-    [Route("/event")]
-    public IActionResult Event()
-    {
-        var model = new IndexViewModel() { Site = db.Sites!.First() };
-        return View(model);
-    }
 
     [Route("/blog")]
     public IActionResult Blog()
@@ -56,8 +50,26 @@ public class HomeController : Controller
         return View(model);
     }
 
-    [Route("/cource")]
+   [Route("/cource")]
     public IActionResult Cource()
+    {
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
+    }
+     [Route("/cource-single/{title}/{id}")]
+    public IActionResult CourceSingle(string title, int id)
+    {
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
+    }
+     [Route("/event")]
+    public IActionResult Event()
+    {
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
+    }
+     [Route("/event-single/{title}/{id}")]
+    public IActionResult EventSingle(string title, int id)
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);

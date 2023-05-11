@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3VyY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Dev/Asp.NET Core/occupy/Views/Home/CourceSingle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb3VyY2VTaW5nbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Dev/Asp.NET Core/occupy/Views/Home/Event.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dev/Asp.NET Core/occupy/Views/Home/EventSingle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudFNpbmdsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dev/Asp.NET Core/occupy/Views/Home/Index.cshtml]
@@ -58,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Dev/Asp.NET Core/occupy/Views/Shared/_Banner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYW5uZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Dev/Asp.NET Core/occupy/Views/Shared/_Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Dev/Asp.NET Core/occupy/Views/Shared/_BlogCategories.cshtml]

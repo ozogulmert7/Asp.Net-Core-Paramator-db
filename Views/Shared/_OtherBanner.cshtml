@@ -1,27 +1,24 @@
-
 @{
-    var actionName= ViewContext.RouteData.Values["Action"]!.ToString();
+    var actionName = ViewContext.RouteData.Values["Action"]!.ToString();
 }
- <!--================Home Banner Area =================-->
-        <section class="banner_area">
-            <div class="banner_inner d-flex align-items-center">
-				<div class="container">
-					<div class="banner_content">
-						<h2>@(ViewData["Subtitle"]==null? ViewData["Title"]:"")</h2>
-						<div class="page_link">
-							<a href="/">Ana Sayfa</a>
-							@if (ViewData["Subtitle"]==null)
-							{
-							<a>@ViewData["Title"]</a>
-							}
-							else
-							{
-							<a href='@(actionName=="BlogDetail"?"/blog":"")'>@ViewData["Title"]</a>
-							<a>@ViewData["Subtitle"]</a>
-							}
-						</div>
-					</div>
-				</div>
+<section class="banner_area" style='background: url(@Url.Content("/uploads/files/icon/banner.jpg")) no-repeat scroll center center;'>
+    <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content">
+                <h2>@(ViewData["Subtitle"] == null ? ViewData["Title"] : "")</h2>
+                <div class="page_link">
+                    <a href="/index">Ana Sayfa</a>
+                    @if (ViewData["Subtitle"] == null)
+                    {
+                        <a>@ViewData["Title"]</a>
+                    }
+                    else
+                    {
+                        <a href='@(actionName=="BlogSingle"?"/blog":actionName=="EventSingle"?"/event":actionName=="CourceSingle"?"/cource":"")'>@ViewData["Title"]</a>
+                        <a>@ViewData["Subtitle"]</a>
+                    }
+                </div>
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
+        </div>
+    </div>
+</section>

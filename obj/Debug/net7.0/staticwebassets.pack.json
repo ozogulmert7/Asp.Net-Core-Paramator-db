@@ -437,10 +437,6 @@
       "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\banner\\banner.jpg",
-      "PackagePath": "staticwebassets\\img\\banner\\banner.jpg"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\banner\\home-banner.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\home-banner.jpg"
     },
@@ -1167,6 +1163,10 @@
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\single-blog.html",
       "PackagePath": "staticwebassets\\single-blog.html"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\banner.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\banner.jpg"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\favicon.png",
