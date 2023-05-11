@@ -18715,6 +18715,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Dev\\Asp.NET Core\\occupy\\Views\\Shared\\_BlogCategories.cshtml",
+      "TargetPath": "Views\\Shared\\_BlogCategories.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Dev\\Asp.NET Core\\occupy\\Views\\Home\\Service.cshtml",
       "TargetPath": "Views\\Home\\Service.cshtml",
       "FileKind": "mvc"
@@ -18722,6 +18727,11 @@
     {
       "FilePath": "c:\\Dev\\Asp.NET Core\\occupy\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Dev\\Asp.NET Core\\occupy\\Views\\Shared\\_Success.cshtml",
+      "TargetPath": "Views\\Shared\\_Success.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18757,6 +18767,11 @@
     {
       "FilePath": "c:\\Dev\\Asp.NET Core\\occupy\\Views\\Home\\Event.cshtml",
       "TargetPath": "Views\\Home\\Event.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Dev\\Asp.NET Core\\occupy\\Views\\Home\\BlogSingle.cshtml",
+      "TargetPath": "Views\\Home\\BlogSingle.cshtml",
       "FileKind": "mvc"
     },
     {

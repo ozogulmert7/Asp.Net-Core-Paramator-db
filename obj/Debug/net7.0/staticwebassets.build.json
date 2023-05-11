@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6RHZjkLYRYnocTuYACRkIz0TywMBFan/ThIQxQPWsu8=",
+  "Hash": "/Mt9/KuyPUtppz+LbAw+D4LYADN3VrRfczaQEbCHeVs=",
   "Source": "occupy",
   "BasePath": "_content/occupy",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\.DS_Store"
-    },
-    {
-      "Identity": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\about-us.html",
-      "SourceId": "occupy",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\",
-      "BasePath": "_content/occupy",
-      "RelativePath": "about-us.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\about-us.html"
     },
     {
       "Identity": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\blog.html",
@@ -4996,23 +4979,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
-    },
-    {
-      "Identity": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\service.html",
-      "SourceId": "occupy",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\",
-      "BasePath": "_content/occupy",
-      "RelativePath": "service.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\service.html"
     },
     {
       "Identity": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\single-blog.html",

@@ -1,12 +1,24 @@
+
+@{
+    var actionName= ViewContext.RouteData.Values["Action"]!.ToString();
+}
  <!--================Home Banner Area =================-->
         <section class="banner_area">
             <div class="banner_inner d-flex align-items-center">
 				<div class="container">
 					<div class="banner_content">
-						<h2>About Us</h2>
+						<h2>@(ViewData["Subtitle"]==null? ViewData["Title"]:"")</h2>
 						<div class="page_link">
-							<a href="/">Home</a>
-							<a href="/about-us">About Us</a>
+							<a href="/">Ana Sayfa</a>
+							@if (ViewData["Subtitle"]==null)
+							{
+							<a>@ViewData["Title"]</a>
+							}
+							else
+							{
+							<a href='@(actionName=="BlogDetail"?"/blog":"")'>@ViewData["Title"]</a>
+							<a>@ViewData["Subtitle"]</a>
+							}
 						</div>
 					</div>
 				</div>

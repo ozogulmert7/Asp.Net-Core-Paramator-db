@@ -265,10 +265,6 @@
       "PackagePath": "staticwebassets\\Occupy-doc\\syntax-highlighter\\styles\\shThemeRDark.css"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\about-us.html",
-      "PackagePath": "staticwebassets\\about-us.html"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\blog.html",
       "PackagePath": "staticwebassets\\blog.html"
     },
@@ -1167,10 +1163,6 @@
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\service.html",
-      "PackagePath": "staticwebassets\\service.html"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\single-blog.html",

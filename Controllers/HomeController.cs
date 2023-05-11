@@ -49,7 +49,14 @@ public class HomeController : Controller
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);
     }
-     [Route("/cource")]
+     [Route("/blog-single/{title}/{id}")]
+    public IActionResult BlogSingle(string title, int id)
+    {
+        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        return View(model);
+    }
+
+    [Route("/cource")]
     public IActionResult Cource()
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };

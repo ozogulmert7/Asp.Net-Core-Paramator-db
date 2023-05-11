@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="~/uploads/files/icon/@Model.Site!.Favicon" type="image/png">
-	<title>@Model.Site!.Title</title>
+	<title>@(ViewData["Subtitle"]!= null ? ViewData["Subtitle"] +"-" +ViewData["Title"]:ViewData["Title"])  @Model.Site!.Title</title>
     
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="~/css/bootstrap.css">
