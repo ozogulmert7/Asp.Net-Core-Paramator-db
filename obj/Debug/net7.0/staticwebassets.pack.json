@@ -785,26 +785,6 @@
       "PackagePath": "staticwebassets\\img\\success-2.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\team\\team-1.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-1.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\team\\team-2.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-2.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\team\\team-3.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-3.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\team\\team-4.jpg",
-      "PackagePath": "staticwebassets\\img\\team\\team-4.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\team\\team-overlay.png",
-      "PackagePath": "staticwebassets\\img\\team\\team-overlay.png"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
@@ -1153,16 +1133,36 @@
       "PackagePath": "staticwebassets\\single-blog.html"
     },
     {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\ahmet.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\ahmet.jpg"
+    },
+    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\banner.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\batintenta.png",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\batintenta.png"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\favicon.png",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\favicon.png"
     },
     {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mamimo.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mamimo.jpeg"
+    },
+    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mission-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\mission-1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mksular-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mksular-2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mksular.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mksular.jpg"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\paramator.png",
@@ -1175,6 +1175,26 @@
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\slider-2.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\team-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\team-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\team-3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\team-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\team-overlay.png",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\team-overlay.png"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\vendors\\.DS_Store",
