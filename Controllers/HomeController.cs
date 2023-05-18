@@ -18,14 +18,25 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        var model = new IndexViewModel()
+        {
+            About = db.Abouts!.FirstOrDefault(x => x.Isview == true),
+            Abouts = db.Abouts!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
+            Slides = db.Slides!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
+            Site = db.Sites!.FirstOrDefault(),
+        };
         return View(model);
     }
 
     [Route("/about-us")]
     public IActionResult About()
     {
-        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        var model = new IndexViewModel()
+        {
+            About = db.Abouts!.FirstOrDefault(x => x.Isview == true),
+            Abouts = db.Abouts!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
+            Site = db.Sites!.First(),
+        };
         return View(model);
     }
 
@@ -36,39 +47,42 @@ public class HomeController : Controller
         return View(model);
     }
 
-
     [Route("/blog")]
     public IActionResult Blog()
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);
     }
-     [Route("/blog-single/{title}/{id}")]
+
+    [Route("/blog-single/{title}/{id}")]
     public IActionResult BlogSingle(string title, int id)
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);
     }
 
-   [Route("/cource")]
+    [Route("/cource")]
     public IActionResult Cource()
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);
     }
-     [Route("/cource-single/{title}/{id}")]
+
+    [Route("/cource-single/{title}/{id}")]
     public IActionResult CourceSingle(string title, int id)
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);
     }
-     [Route("/event")]
+
+    [Route("/event")]
     public IActionResult Event()
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
         return View(model);
     }
-     [Route("/event-single/{title}/{id}")]
+
+    [Route("/event-single/{title}/{id}")]
     public IActionResult EventSingle(string title, int id)
     {
         var model = new IndexViewModel() { Site = db.Sites!.First() };
