@@ -14,4 +14,6 @@ public class IndexViewModel
     public Service? Service { get; set; }
     public IEnumerable<Success>? Successes { get; set; }
     public Success? Success { get; set; }
+   public IEnumerable<Message>? Messages { get; set; }
+    public Message? Message { get; set; }
 }

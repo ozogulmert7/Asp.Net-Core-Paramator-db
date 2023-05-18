@@ -17,6 +17,8 @@ public partial class ParamatordbContext : DbContext
 
     public virtual DbSet<About> Abouts { get; set; }
 
+    public virtual DbSet<Message> Messages { get; set; }
+
     public virtual DbSet<Service> Services { get; set; }
 
     public virtual DbSet<Site> Sites { get; set; }
@@ -59,6 +61,32 @@ public partial class ParamatordbContext : DbContext
                 .HasMaxLength(200)
                 .HasDefaultValueSql("'0'")
                 .HasColumnName("title");
+        });
+
+        modelBuilder.Entity<Message>(entity =>
+        {
+            entity.HasKey(e => e.Int).HasName("PRIMARY");
+
+            entity.ToTable("message");
+
+            entity.Property(e => e.Int).HasColumnName("int");
+            entity.Property(e => e.Isview).HasColumnName("isview");
+            entity.Property(e => e.Order).HasColumnName("order");
+            entity.Property(e => e.Subtitle)
+                .HasMaxLength(150)
+                .HasColumnName("subtitle");
+            entity.Property(e => e.Title)
+                .HasMaxLength(100)
+                .HasColumnName("title");
+            entity.Property(e => e.Url)
+                .HasMaxLength(150)
+                .HasColumnName("url");
+            entity.Property(e => e.UrlTarget)
+                .HasMaxLength(50)
+                .HasColumnName("urlTarget");
+            entity.Property(e => e.UrlText)
+                .HasMaxLength(150)
+                .HasColumnName("urlText");
         });
 
         modelBuilder.Entity<Service>(entity =>
