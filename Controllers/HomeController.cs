@@ -20,11 +20,11 @@ public class HomeController : Controller
     {
         var model = new IndexViewModel()
         {
+            Services = db.Services!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
             Abouts = db.Abouts!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
             Slides = db.Slides!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
             Site = db.Sites!.FirstOrDefault(),
             Teams = db.Teams!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
-
         };
         return View(model);
     }
@@ -38,6 +38,8 @@ public class HomeController : Controller
             About = db.Abouts!.FirstOrDefault(x => x.Isview == true),
             Abouts = db.Abouts!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
             Site = db.Sites!.First(),
+            Service = db.Services!.FirstOrDefault(x => x.Isview == true),
+            Services = db.Services!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
         };
         return View(model);
     }
@@ -45,7 +47,12 @@ public class HomeController : Controller
     [Route("/service")]
     public IActionResult Service()
     {
-        var model = new IndexViewModel() { Site = db.Sites!.First() };
+        var model = new IndexViewModel()
+        {
+            Site = db.Sites!.First(),
+            Success = db.Successes!.FirstOrDefault(x => x.Isview == true),
+            Successes = db.Successes!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
+        };
         return View(model);
     }
 

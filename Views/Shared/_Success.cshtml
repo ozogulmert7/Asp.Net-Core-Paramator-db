@@ -1,30 +1,46 @@
+ @model occupy.Models.IndexViewModel
+@{
+	int i=0;
+}
  <!--================Success Area =================-->
         <section class="success_area">
-        	<div class="row m0">
-        		<div class="col-lg-6 p0">
-        			<div class="mission_text">
-						<h4>Road to Success</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
-					</div>
-        		</div>
-        		<div class="col-lg-6 p0">
-        			<div class="success_img">
-        				<img src="img/success-1.jpg" alt="">
-        			</div>
-        		</div>
+			@if (Model.Successes!=null)
+			{
+				@foreach (var item in Model.Successes)
+				{
+						<div class="row m0">
+							@if (i%2!=0)
+							{
+        		                <div class="col-lg-6 p0">
+        			              <div class="success_img">
+        				             <img src="~/uploads/files/icon/@item.Image" alt="">
+        			              </div>
+        		                </div>
+									<div class="col-lg-6 p0">
+        			              <div class="mission_text">
+						            <h4>@item.Title</h4>
+						            <p>@item.Subtitle</p>
+					             </div>
+        		                </div>
+							}
+							else
+							{
+								<div class="col-lg-6 p0">
+        			              <div class="mission_text">
+						            <h4>@item.Title</h4>
+						            <p>@item.Subtitle</p>
+					             </div>
+        		                </div> 
+								<div class="col-lg-6 p0">
+        			              <div class="success_img">
+        				             <img src="~/uploads/files/icon/@item.Image" alt="">
+        			              </div>
+        		                </div>
+							}
+        	
         	</div>
-        	<div class="row m0 right_dir">
-        		<div class="col-lg-6 p0">
-        			<div class="success_img">
-        				<img src="img/success-2.jpg" alt="">
-        			</div>
-        		</div>
-        		<div class="col-lg-6 p0">
-        			<div class="mission_text">
-						<h4>Road to Success</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
-					</div>
-        		</div>
-        	</div>
+				}
+			}
+        
         </section>
         <!--================End Success Area =================-->

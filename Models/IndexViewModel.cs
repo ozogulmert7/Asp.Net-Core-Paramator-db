@@ -10,4 +10,8 @@ public class IndexViewModel
     public IEnumerable<About>? Abouts { get; set; }
     public About? About { get; set; }
     public IEnumerable<Team>? Teams { get; set; }
+    public IEnumerable<Service>? Services { get; set; }
+    public Service? Service { get; set; }
+    public IEnumerable<Success>? Successes { get; set; }
+    public Success? Success { get; set; }
 }

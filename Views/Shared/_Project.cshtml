@@ -1,84 +1,27 @@
+@model occupy.Models.IndexViewModel
 <!--================Project Area =================-->
 	<section class="project_area">
 		<div class="row m0">
-			<div class="col-lg-4 col-md-6 p0">
+			@if (Model.Services!=null)
+			{
+				@foreach (var item in Model.Services)
+				{
+						<div class="col-lg-4 col-md-6 p0">
 				<div class="project_item">
-					<img src="~/img/project/project-1.jpg" alt="">
+					<img src="~/uploads/files/icon/@item.Image" alt="">
 					<div class="hover_text">
-						<h4>Exotic <br />Mangrove</h4>
+						<h4>@item.Title</h4>
 						<div class="cat">
-							<a href="#">Lifestyle</a>
-							<a href="#">People</a>
+							<a href="#">@item.Subtitle</a>
 						</div>
-						<a class="main_btn" href="#">View More</a>
+						<a class="main_btn" href="@item.Url" target="@item.UrlTarget">@item.UrlText</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 p0">
-				<div class="project_item">
-					<img src="~/img/project/project-2.jpg" alt="">
-					<div class="hover_text">
-						<h4>Exotic <br />Mangrove</h4>
-						<div class="cat">
-							<a href="#">Lifestyle</a>
-							<a href="#">People</a>
-						</div>
-						<a class="main_btn" href="#">View More</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 p0">
-				<div class="project_item">
-					<img src="img/project/project-3.jpg" alt="">
-					<div class="hover_text">
-						<h4>Exotic <br />Mangrove</h4>
-						<div class="cat">
-							<a href="#">Lifestyle</a>
-							<a href="#">People</a>
-						</div>
-						<a class="main_btn" href="#">View More</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 p0">
-				<div class="project_item">
-					<img src="~/img/project/project-4.jpg" alt="">
-					<div class="hover_text">
-						<h4>Exotic <br />Mangrove</h4>
-						<div class="cat">
-							<a href="#">Lifestyle</a>
-							<a href="#">People</a>
-						</div>
-						<a class="main_btn" href="#">View More</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 p0">
-				<div class="project_item">
-					<img src="~/img/project/project-5.jpg" alt="">
-					<div class="hover_text">
-						<h4>Exotic <br />Mangrove</h4>
-						<div class="cat">
-							<a href="#">Lifestyle</a>
-							<a href="#">People</a>
-						</div>
-						<a class="main_btn" href="#">View More</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 p0">
-				<div class="project_item">
-					<img src="~/img/project/project-6.jpg" alt="">
-					<div class="hover_text">
-						<h4>Exotic <br />Mangrove</h4>
-						<div class="cat">
-							<a href="#">Lifestyle</a>
-							<a href="#">People</a>
-						</div>
-						<a class="main_btn" href="#">View More</a>
-					</div>
-				</div>
-			</div>
+				}
+			}
+		
+			
 		</div>
 	</section>
 	<!--================End Project Area =================-->

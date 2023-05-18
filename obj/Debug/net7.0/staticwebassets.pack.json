@@ -753,36 +753,12 @@
       "PackagePath": "staticwebassets\\img\\project-details-1.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\project\\project-1.jpg",
-      "PackagePath": "staticwebassets\\img\\project\\project-1.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\project\\project-2.jpg",
-      "PackagePath": "staticwebassets\\img\\project\\project-2.jpg"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\project\\project-3.jpg",
       "PackagePath": "staticwebassets\\img\\project\\project-3.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\project\\project-4.jpg",
-      "PackagePath": "staticwebassets\\img\\project\\project-4.jpg"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\project\\project-5.jpg",
       "PackagePath": "staticwebassets\\img\\project\\project-5.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\project\\project-6.jpg",
-      "PackagePath": "staticwebassets\\img\\project\\project-6.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\success-1.jpg",
-      "PackagePath": "staticwebassets\\img\\success-1.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\img\\success-2.jpg",
-      "PackagePath": "staticwebassets\\img\\success-2.jpg"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\index.html",
@@ -1133,40 +1109,56 @@
       "PackagePath": "staticwebassets\\single-blog.html"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\ahmet.jpg",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\ahmet.jpg"
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\ahmet.png",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\ahmet.png"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\banner.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\banner.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\batintenta.png",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\batintenta.png"
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\batintenta-2.png",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\batintenta-2.png"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\c5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\c5.jpg"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\favicon.png",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\favicon.png"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mamimo.jpeg",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mamimo.jpeg"
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mamimo.png",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mamimo.png"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mission-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\mission-1.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mksular-2.jpg",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mksular-2.jpg"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mksular.jpg",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mksular.jpg"
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mksular.png",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mksular.png"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\paramator.png",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\paramator.png"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\project-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\project-1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\project-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\project-2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\project-4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\project-4.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\project-6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\project-6.jpg"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\slider-1.jpg",
@@ -1175,6 +1167,14 @@
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\slider-2.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\success-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\success-1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\success-2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\files\\icon\\success-2.jpg"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\team-1.jpg",
