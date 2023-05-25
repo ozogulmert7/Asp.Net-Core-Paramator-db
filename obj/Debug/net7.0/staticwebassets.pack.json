@@ -265,14 +265,6 @@
       "PackagePath": "staticwebassets\\Occupy-doc\\syntax-highlighter\\styles\\shThemeRDark.css"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\blog.html",
-      "PackagePath": "staticwebassets\\blog.html"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\contact.html",
-      "PackagePath": "staticwebassets\\contact.html"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\css\\_about.css",
       "PackagePath": "staticwebassets\\css\\_about.css"
     },
@@ -395,10 +387,6 @@
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\css\\style.css.map",
       "PackagePath": "staticwebassets\\css\\style.css.map"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\elements.html",
-      "PackagePath": "staticwebassets\\elements.html"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\favicon.ico",
@@ -761,10 +749,6 @@
       "PackagePath": "staticwebassets\\img\\project\\project-5.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
@@ -1041,14 +1025,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\portfolio-details.html",
-      "PackagePath": "staticwebassets\\portfolio-details.html"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\portfolio.html",
-      "PackagePath": "staticwebassets\\portfolio.html"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\scss\\_blog.scss",
       "PackagePath": "staticwebassets\\scss\\_blog.scss"
     },
@@ -1105,32 +1081,12 @@
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\single-blog.html",
-      "PackagePath": "staticwebassets\\single-blog.html"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\ahmet.png",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\ahmet.png"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\banner.jpg",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\banner.jpg"
     },
     {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\batintenta-2.png",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\batintenta-2.png"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\c5.jpg",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\c5.jpg"
-    },
-    {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\favicon.png",
       "PackagePath": "staticwebassets\\uploads\\files\\icon\\favicon.png"
-    },
-    {
-      "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mamimo.png",
-      "PackagePath": "staticwebassets\\uploads\\files\\icon\\mamimo.png"
     },
     {
       "Id": "C:\\Dev\\Asp.NET Core\\occupy\\wwwroot\\uploads\\files\\icon\\mission-1.jpg",
