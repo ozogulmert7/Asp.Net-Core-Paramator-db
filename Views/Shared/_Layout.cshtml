@@ -1,13 +1,21 @@
 ﻿<!doctype html>
 <html lang="en">
+    @{
+    var actionName= ViewContext.RouteData.Values["Action"]!.ToString();
+}
 
 @{await Html.RenderPartialAsync("_Head");}
 
 <body>
-@{await Html.RenderPartialAsync("_Header");}
-
+    @if (actionName!= "SignIn")
+    {
+        {await Html.RenderPartialAsync("_Header");}
+    }
 @RenderBody()
-@{await Html.RenderPartialAsync("_Footer");}
+ @if (actionName!= "SignIn")
+    {
+        {await Html.RenderPartialAsync("_Footer");}
+    }
 @{await Html.RenderPartialAsync("_Scripts");}
 
 </body>

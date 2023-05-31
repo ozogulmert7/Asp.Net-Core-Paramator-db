@@ -25,7 +25,7 @@ public class HomeController : Controller
             Slides = db.Slides!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
             Site = db.Sites!.FirstOrDefault(),
             Teams = db.Teams!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
-            Messages=db.Messages!.OrderBy(x=>x.Order).Where(x=>x.Isview==true).ToList(),
+            Messages = db.Messages!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
         };
         return View(model);
     }
@@ -41,7 +41,7 @@ public class HomeController : Controller
             Site = db.Sites!.First(),
             Service = db.Services!.FirstOrDefault(x => x.Isview == true),
             Services = db.Services!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
-            Messages=db.Messages!.OrderBy(x=>x.Order).Where(x=>x.Isview==true).ToList(),
+            Messages = db.Messages!.OrderBy(x => x.Order).Where(x => x.Isview == true).ToList(),
         };
         return View(model);
     }
