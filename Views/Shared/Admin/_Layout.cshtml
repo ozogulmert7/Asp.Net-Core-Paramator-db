@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+@{
+    await Html.RenderPartialAsync("Admin/_Head");
+}
+
+<body>
+<div class="wrapper">
+
+    @{
+    await Html.RenderPartialAsync("Admin/_Header");
+    } 
+    @{
+    await Html.RenderPartialAsync("Admin/_MainSidebar");
+    } 
+
+  <div class="content-wrapper">
+    @{
+    await Html.RenderPartialAsync("Admin/_ContentHeader");
+    } 
+     @{
+    await Html.RenderPartialAsync("Admin/_MainContent");
+    } 
+  </div>
+    @{
+    await Html.RenderPartialAsync("Admin/_ControlSidebar");
+    }  
+
+     @RenderBody()
+     @{
+    await Html.RenderPartialAsync("Admin/_Footer");
+    } 
+
+</div>
+
+</body>
+
+</html>

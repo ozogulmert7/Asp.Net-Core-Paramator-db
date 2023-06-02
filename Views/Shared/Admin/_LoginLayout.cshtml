@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+
+@{
+    await Html.RenderPartialAsync("Admin/_Head");
+}
+
+<body>
+   @{
+        await Html.RenderPartialAsync("Admin/_LoginBox");
+    }
+
+    @RenderBody()
+   
+    @{
+        await Html.RenderPartialAsync("Admin/_Scripts");
+    }
+
+
+</body>
+
+</html>

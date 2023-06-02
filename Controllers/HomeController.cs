@@ -14,7 +14,7 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    ParamatordbContext db = new ParamatordbContext();
+    ParamotordbContext db = new ParamotordbContext();
 
     public IActionResult Index()
     {

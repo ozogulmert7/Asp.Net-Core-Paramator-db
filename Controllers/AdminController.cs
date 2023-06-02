@@ -1,16 +1,14 @@
 ﻿using System.Diagnostics;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Mvc;
-using occupy.Models;
-using occupy.Models.Entities;
-using Microsoft.AspNetCore.Session;
-using Microsoft.AspNetCore.Http;
-using System.Linq;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using occupy.Models.Entities;
+using occupy.Models;
 
-namespace occupy.Controllers;
+namespace Paramotor.Controllers;
 
+[Authorize]
 public class AdminController : Controller
 {
     private readonly ILogger<AdminController> _logger;
@@ -20,54 +18,61 @@ public class AdminController : Controller
         _logger = logger;
     }
 
-    ParamatordbContext db = new ParamatordbContext();
+    ParamotordbContext db = new ParamotordbContext();
 
     [Authorize]
     public IActionResult Index()
     {
-        var model = new IndexViewModel() { Site = db.Sites!.FirstOrDefault(), };
-        return View(model);
+        return View();
     }
 
-    [Route("/signin")]
-    public IActionResult SignIn()
+    [AllowAnonymous]
+    [Route("/admin/login")]
+    public IActionResult Login()
     {
-        var model = new IndexViewModel() { Site = db.Sites!.FirstOrDefault(), };
-        return View(model);
+        return View();
     }
 
+    [AllowAnonymous]
     [HttpPost]
     [IgnoreAntiforgeryToken]
-    [Route("/admin/signin")]
-    public async Task<IActionResult> SignIn(User postedData)
+    [Route("/admin/login")]
+    public async Task<IActionResult> Login(User postedData)
     {
         User user = db.Users!.FirstOrDefault(
-            x => x.Username == postedData.Username && x.Password == postedData.Password
+            x => x.Email == postedData.Email && x.Password == postedData.Password
         )!;
 
         if (user != null)
         {
-            var claims = new List<Claim>()
+            var claims = new List<Claim>
             {
                 new Claim("user", user.Id.ToString()),
                 new Claim("role", "admin")
             };
 
-            var claimsIdentity = new ClaimsIdentity(claims, "Cookies");
-            var claimsPrinciple = new ClaimsPrincipal(claimsIdentity);
-
+            var claimsIdendity = new ClaimsIdentity(claims, "Cookies", "user", "role");
+            var claimsPrinciple = new ClaimsPrincipal(claimsIdendity);
             await HttpContext.SignInAsync(claimsPrinciple);
-
-            TempData["SuccessSignIn"] = "Giriş yapıldı.";
-            return RedirectToAction("Index");
+            return Redirect("/admin/");
         }
         else
         {
-            TempData["Danger"] = "Hatalı kullanıcı adı ve ya şifre.";
-            return Redirect("/signin");
+            TempData["Danger"] = "Hatalı Kullanıcı Adı / Şifre";
+            return Redirect("/admin/login");
         }
     }
 
+    [Route("/signout")]
+    public async Task<IActionResult> Signout()
+    {
+        await HttpContext.SignOutAsync();
+        TempData["Success"] = "Tekrar Bekleriz";
+        return Redirect("/admin/login");
+    }
+
+    [Authorize]
+    [Route("/admin/team/edit/")]
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

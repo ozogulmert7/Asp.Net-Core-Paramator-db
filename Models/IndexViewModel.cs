@@ -5,8 +5,8 @@ namespace occupy.Models;
 
 public class IndexViewModel
 {
-      [Required(ErrorMessage = "Lütfen Boş geçmeyiniz")]
-    public string? Username { get; set; }
+    [Required(ErrorMessage = "Lütfen Boş Geçmeyiniz!")]
+    public string? Email { get; set; }
 
     [Required(ErrorMessage = "Lütfen Boş geçmeyiniz")]
     public string? Password { get; set; }
